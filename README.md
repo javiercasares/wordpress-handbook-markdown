@@ -42,6 +42,12 @@ _Italic text_
 [Link text](https://example.com "Optional title")
 ```
 
+Links with code:
+
+```markdown
+[+ function()`](https://example.com/function "Function name")
+```
+
 ## Images
 
 ```markdown
