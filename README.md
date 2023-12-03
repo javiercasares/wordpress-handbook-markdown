@@ -149,6 +149,8 @@ The purple box.
 
 ### PHP box
 
+Usually is not needed. A Code block shold be fine.
+
 ```markdown
 [php]<?php echo 'Hello World'; ?>[/php]
 ```
