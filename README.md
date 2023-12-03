@@ -150,3 +150,13 @@ The purple box.
 ```markdown
 [html]<abbr title="World Wide Web Consortium">W3C</abbr>[/html]
 ```
+## Arrows
+
+```
+- →
+- ←
+- ↑
+- ↓
+- ↔
+- ↕
+```
