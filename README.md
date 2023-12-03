@@ -91,6 +91,8 @@ Links with code:
 
 ## Task Lists
 
+This only works in GitHub. Shouldn't be usen in documentation.
+
 ```markdown
 - [ ] Pending task
 - [x] Completed task
