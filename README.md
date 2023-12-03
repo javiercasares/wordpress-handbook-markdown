@@ -45,7 +45,7 @@ _Italic text_
 Links with code:
 
 ```markdown
-[+ function()`](https://example.com/function "Function name")
+[`function()`](https://example.com/function "Function name")
 ```
 
 ## Images
