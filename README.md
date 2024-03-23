@@ -54,6 +54,18 @@ Links with code:
 ![Alternative text](https://example.com/image.jpg "Optional title")
 ```
 
+#### You can drag and drop images, and video
+https://github.com/javiercasares/wordpress-handbook-markdown/assets/3792502/57f182fa-dde4-4246-ac7f-4693b2016c78
+
+**Note:** Please include the Alternative text as seen above once the image is uploaded
+
+Alt Text is important for those who use screen readers to understand your content.
+
+
+[Learn More about Alt Text](https://moz.com/learn/seo/alt-text)
+
+
+
 ## Code
 
 ```markdown
