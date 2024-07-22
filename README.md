@@ -1,8 +1,8 @@
 # WordPress Handbook Markdown _Quick Reference_
 
-This cheatsheet provides a quick reference for Markdown syntax, making it easier to create and edit documents on GitHub.
+This cheatsheet provides a quick reference for [Markdown syntax](https://spec.commonmark.org/current/), making it easier to create and edit documents on GitHub.
 
-It is designed for the WordPress Community Handbooks, therefore the options have been limited to a standard so that everyone does it as similarly as possible.
+It is designed for the _WordPress Community Handbooks_, therefore the options have been limited to a standard so that everyone does it as similarly as possible.
 
 ## Headers
 
@@ -36,70 +36,29 @@ _Italic text_
 2. Ordered list item
 ```
 
-Nested lists in Markdown are a bit tricky.
+Lists with nested elements:
 
-Observe the following list displays to show how to use nested lists.
-
----
-
-# Display view
-
-### A list with sub-list items
+```markdown
 * Item 1
 * Item 2
 * Item 3
-    * Item 3a
-    * Item 3b
-    * Item 3c
+    * Item 3.1
+    * Item 3.2
+    * Item 3.3
 
-### Ordered list
+1. Item 1
+2. Item 2
+3. Item 3
+    1. Item 3.1
+    2. Item 3.2
+    3. Item 3.3
 
-1. Step 1
-2. Step 2
-3. Step 3
-    1. Step 3.1
-    2. Step 3.2
-    3. Step 3.3
-
-#### Multiple items in a list step
-
-1. Step 1
-2. Step 2
-3. Step 3
-    * Item 3a
-    * Item 3b
-    * Item 3c
-
----
-
-# The Markdown
-
-```Markdown
-### simple sub list
-* Item 1
-* Item 2
-* Item 3
-    * Item 3a
-    * Item 3b
-    * Item 3c
-
-### ordered list
-
-1. Step 1
-2. Step 2
-3. Step 3
-    1. Step 3.1
-    2. Step 3.2
-    3. Step 3.3
-
-### multiple items in a sub-list
-
-1. Step 1
-2. Step 2
-3. Step 3
-    * Item 3a
-    * Item 3b
-    * Item 3c
+1. Item 1
+2. Item 2
+3. Item 3
+    * Item 3.1
+    * Item 3.2
+    * Item 3.3
 ```
 
 ## Links
@@ -119,18 +78,6 @@ Links with code:
 ```markdown
 ![Alternative text](https://example.com/image.jpg "Optional title")
 ```
-
-#### You can drag and drop images, and video
-https://github.com/javiercasares/wordpress-handbook-markdown/assets/3792502/57f182fa-dde4-4246-ac7f-4693b2016c78
-
-**Note:** Please include the Alternative text as seen above once the image is uploaded
-
-Alt Text is important for those who use screen readers to understand your content.
-
-
-[Learn More about Alt Text](https://moz.com/learn/seo/alt-text)
-
-
 
 ## Code
 
@@ -169,7 +116,7 @@ Alt Text is important for those who use screen readers to understand your conten
 
 ## Task Lists
 
-This only works in GitHub. Shouldn't be usen in documentation.
+This **only works in GitHub**. Shouldn't be use in documentation.
 
 ```markdown
 - [ ] Pending task
@@ -238,7 +185,10 @@ Usually is not needed. A Code block shold be fine.
 ```markdown
 [html]<abbr title="World Wide Web Consortium">W3C</abbr>[/html]
 ```
-## Arrows
+
+## Other helpers
+
+### Arrows
 
 - →
 - ←
