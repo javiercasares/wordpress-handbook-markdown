@@ -17,6 +17,8 @@ The H1 only must be used on the page title.
 ###### Header 6
 ```
 
+View the [example](example-headers.md).
+
 ## Emphasis
 
 ```markdown
@@ -25,6 +27,8 @@ _Italic text_
 **_Bold and italic text_**
 ~~Strikethrough text~~
 ```
+
+View the [example](example-emphasis.md).
 
 ## Lists
 
@@ -61,6 +65,8 @@ Lists with nested elements:
     * Item 3.3
 ```
 
+View the [example](example-lists.md).
+
 ## Links
 
 ```markdown
@@ -73,11 +79,15 @@ Links with code:
 [`function()`](https://example.com/function "Function name")
 ```
 
+View the [example](example-links.md).
+
 ## Images
 
 ```markdown
 ![Alternative text](https://example.com/image.jpg "Optional title")
 ```
+
+View the [example](example-images.md).
 
 ## Code
 
@@ -91,6 +101,8 @@ Links with code:
  ```
 ~~~
 
+View the [example](example-code.md).
+
 ## Blockquotes
 
 ```markdown
@@ -98,6 +110,8 @@ Links with code:
 > 
 > This is a continuation of the blockquote.
 ```
+
+View the [example](example-blockquote.md).
 
 ## Tables
 
@@ -108,11 +122,15 @@ Links with code:
 | More text| More text| More text|
 ```
 
+View the [example](example-tables.md).
+
 ## Horizontal Lines
 
 ```markdown
 ---
 ```
+
+View the [example](example-horizontallines.md).
 
 ## Task Lists
 
@@ -130,7 +148,7 @@ This **only works in GitHub**. Shouldn't be use in documentation.
 ```
 You can find a complete list of supported emojis [here](https://github.com/ikatyang/emoji-cheat-sheet).
 
-## Formatting
+## Formatting (exclusive for WP.org Meta / P2)
 
 ### Info box
 
